@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SegundaAula": {
+      "commandName": "Project",
+      "commandLineArgs": "teste arthur ola bom dia novidade c# programacao web code "
+    }
+  }
+}

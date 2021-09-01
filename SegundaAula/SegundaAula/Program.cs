@@ -43,6 +43,35 @@ namespace SegundaAula
             }
             */
             Console.WriteLine(teste);
+
+            foreach (var argumento in args)
+            {
+                Console.WriteLine($"Argumento lido no foreach: {argumento}");
+            }
+
+            for (var i = 0; i < args.Length; i++)
+            {
+                var argumento = args[i];
+                Console.WriteLine($"Argumento lido no for: {argumento}");
+                //Console.WriteLine($"Estamos no loop: {i}");
+
+            }
+
+            var cont = 0;
+            while (cont < args.Length)
+            {
+                var argumento = args[cont];
+                Console.WriteLine($"Argumento lido no while: {argumento}");
+                cont++;
+            }
+
+            var cont2 = 0;
+            do
+            {
+                var argumento = args[cont2];
+                Console.WriteLine($"Argumento lido no DO: {argumento}");
+                cont2++;
+            } while (cont2 < args.Length);
         }
     }
 }
